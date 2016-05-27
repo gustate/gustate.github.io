@@ -170,7 +170,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     color: #9c27b0;
-    font-family: "Bubblegum Sans", "Helvetica Neue", Helvetica, Arial, cursive
+    font-family: "Bubblegum Sans", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -247,7 +247,7 @@ fieldset[disabled] .btn-xl.active {
         padding: 10px 0
     }
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em
+        font-size: 2em;
     }
 }
 
@@ -265,21 +265,12 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px
-}
-
-header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
-    font-size: 22px;
-    line-height: 22px;
-    margin-bottom: 25px
+    padding-top: 75px;
+    padding-bottom: 75px
 }
 
 header .intro-text .intro-heading {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+    font-family: "Bubblegum Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 50px;
     line-height: 50px;
@@ -288,19 +279,11 @@ header .intro-text .intro-heading {
 
 @media (min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px
-    }
-    header .intro-text .intro-lead-in {
-        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-style: italic;
-        font-size: 40px;
-        line-height: 40px;
-        margin-bottom: 25px
+        padding-top: 250px;
+        padding-bottom: 250px
     }
     header .intro-text .intro-heading {
-        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-        text-transform: uppercase;
+        font-family: "Bubblegum Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: 700;
         font-size: 75px;
         line-height: 75px;
