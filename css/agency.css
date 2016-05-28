@@ -50,6 +50,10 @@ h6 {
     font-weight: 700
 }
 
+section#hi h2 {
+	text-transform: none;
+}
+
 .img-centered {
     margin: 0 auto
 }
