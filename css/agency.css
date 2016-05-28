@@ -331,6 +331,10 @@ section h3.section-subheading {
     text-transform: none
 }
 
+#photos img {
+    margin: 0 0 30px;
+}
+
 #shows .portfolio-item {
     margin: 0 0 15px;
     right: 0
