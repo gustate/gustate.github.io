@@ -44,6 +44,17 @@ p {
 	margin-top: 23px;
 }
 
+a.cta {
+	background-color: #d65fb7;
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: none;
+	border-radius: 7px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	h2{
 		font-size: 22px;
