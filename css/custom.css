@@ -26,11 +26,42 @@ p {
 	color: #000;
 }
 
+.info-section {
+	border-width: 1px;
+	border-style: dashed;
+}
+
+.info-section h2 {
+	font-size: 18px;
+}
+
+.info-section p {
+	font-size: 14px;
+	font-weight: 300px
+}
+
+.info-section img {
+	margin-top: 23px;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	h2{
 		font-size: 22px;
 	}
 	p {
 		font-size: 12px;
+	}
+	.info-section h2 {
+		font-size: 12px;
+	}
+
+	.info-section p {
+		font-size: 10px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.info-section {
+		border: none;
 	}
 }
