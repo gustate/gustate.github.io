@@ -9,9 +9,10 @@ body {
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 24px;
 	font-weight: 300;
 	color: #000;
+	margin-bottom: 40px;
 }
 
 h2 {
@@ -56,6 +57,9 @@ a.cta {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	h1{
+		font-size: 18px;
+	}
 	h2{
 		font-size: 22px;
 	}
